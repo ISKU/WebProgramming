@@ -1,0 +1,41 @@
+/* Login Start */
+#loginArea {
+	width: 100%;
+	height: 515px;
+	border: 5px solid #405B79;
+	margin: auto;
+	border-radius: 10px;
+	color: #405B79;
+	text-align: center;
+	display: block;
+}
+
+#tableLogin {
+	margin: 150px auto;
+}
+
+#tableLogin td {
+	padding: 5px;
+}
+/* Login End */ 
+
+/* Join Start */
+#joinArea {
+	width: 100%;
+	height: 515px;
+	border: 5px solid #405B79;
+	margin: auto;
+	border-radius: 10px;
+	color: #405B79;
+	text-align: center;
+	display: none;
+}
+
+#tableJoin {
+	margin: 150px auto;
+}
+
+#tableJoin td {
+	padding: 5px;
+}
+/* Join End */

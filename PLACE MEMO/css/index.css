@@ -1,0 +1,70 @@
+/* Layout Start */
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+}
+
+header {
+	text-align: center;
+}
+
+/* 메인(지도) 영역 */
+main {
+	width: 90%;
+	margin: 40px auto 10px auto;
+	display: none;
+}
+
+#side {
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	color: #405B79;
+}
+
+.line {
+	width: 100%;
+	border: 5px solid #405B79;
+	cursor: pointer;
+}
+
+/* 그림자 */
+.shadow {
+	box-shadow: 5px 5px 5px 0px lightgray;
+}
+
+#down {
+	width: 15px;
+	height: 15px;
+	display: none;
+}
+
+/* 모든 button 양식 */
+button, input {
+	box-shadow: 3px 3px 3px 0px lightgray;
+	background-color: lightgray;
+	color: white;
+	border-radius: 5px;
+	margin: 3px 5px;
+	height: 30px;
+	font-size: 15px;
+	outline: none;
+	font-weight: bold;
+}
+
+/* 메모 작성 텍스트 */
+textarea {
+	font-size: 20px;
+	color: gray;
+	font-weight: bold;
+	border: 0px;
+	background: transparent;
+	overflow-y: hidden;
+	outline: none;
+}
+/* Layout End */
+
