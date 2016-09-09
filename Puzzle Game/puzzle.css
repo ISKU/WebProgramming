@@ -1,0 +1,95 @@
+/* Layout Start */
+section {
+	width: 65%;
+	padding: 30px;
+	float: left;
+	color: #405B79;
+}
+
+aside {
+	width: 25%;
+	padding: 30px;
+	float: left;
+	color: #405B79;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	color: #405B79;
+}
+
+.line {
+	border: 5px solid #405B79;
+}
+
+button {
+	height: 25px;
+}
+/* Layout End */
+
+/* Section Start */
+#time {
+	float: right;
+	font-size: 25px;
+}
+
+#puzzle {
+	border: 5px solid #405B79;
+	border-collapse: collapse;
+	width: 100%;
+	margin: auto;
+}
+
+#puzzle td {
+	margin: 0px;
+	padding: 0px;
+	border-collapse: collapse;
+}
+
+.piece {
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+/* Section End */
+
+/* Aside Start */
+#example {
+	border: 5px solid #405B79;
+	margin: auto;
+	width: 100%; 
+	height: auto; 
+}
+
+#reset {
+	float: right;
+	display: block;
+}
+
+#rank {
+	border: 5px solid #405B79;
+	border-collapse: collapse;
+	width: 100%;
+	height: auto;
+}
+
+#rank td {
+	text-align: center;
+	border: 1px solid navy;
+	font-weight: bold;
+}
+
+#rank th {
+    background-color: #405B79;
+	text-align: center;
+	border: 1px solid navy;
+	color: white;
+	font-weight: bold;
+}
+
+#rank tr:hover {
+	background-color: #BCC4CC;
+	color: #ffffff;
+}
+/* Aside End */

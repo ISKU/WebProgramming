@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META -->
+	<meta charset="utf-8" />
+	<meta name="author" content="김민호" />
+	<meta name="description" content="PUZZLE GAME" />
+	<meta name="data" content="2016/06/12" />
+		
+	<!-- TITLE -->
+	<title>PUZZLE GAME</title>
+		
+	<!-- External Style Sheet -->
+	<link rel="stylesheet" type="text/css" href="./puzzle.css" />
+</head>
+
+<body>
+	<header>
+		<div class="line"></div>
+	</header>
+	
+	<!-- Puzzle Game Area -->
+	<section>
+		<h1>Puzzle Game</h1>
+		<button id="progress" onclick="clickProgress()">START</button>
+		<span id="time">00:00</span>
+		<br />
+		<!-- Puzzle Game -->
+		<table id="puzzle">
+		</table>
+	</section>
+	
+	<!-- Ranking Area -->
+	<aside>
+		<h1>Example</h1>
+		<img id="example" src="./img/puzzleImg.jpg" alt="puzzle example"/>
+		<br /><br />
+		<h1>Rank <button id="reset" onclick="clickReset()">RESET</button></h1>
+		<!-- Ranking -->
+		<table id="rank">
+			<tr>
+				<th>Rank</th>
+				<th>Time</th>
+			</tr>
+		</table>
+	</aside>
+	
+	<footer>
+		<div class="line"></div>
+		<h2>&copy; Kim Min-Ho</h2>
+	</footer>
+	
+	<!-- External Javascripts -->
+	<script src="./puzzle.js"></script>
+</body>
+</html>
