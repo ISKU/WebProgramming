@@ -1,0 +1,21 @@
+/* Log Layout Start */
+aside {
+	padding: 20px 0px 20px 0px;
+	background-color: white;
+	float: left;
+	width: 18%;
+}
+
+#userInformation {
+	border: 5px outset #D8F0EF;
+	padding: 10px;
+	margin: 10px;
+	line-height: 20px;
+}
+
+#plusPoint {
+	border: 5px outset #D8F0EF;
+	padding: 10px;
+	margin: 10px;
+}
+/* Log Layout End */

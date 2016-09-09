@@ -1,0 +1,27 @@
+/* Store(Content) Layout Start */
+#tableArticle {
+	border-spacing: 10px;
+	margin: auto;
+}
+
+.article {
+	border: 5px inset #D8F0EF;
+	display: inline-block;
+}
+
+.imgArticle {
+	width: 220px;
+	height: 220px;
+	float: left;
+}
+
+.infoArticle {
+	width: 250px;
+	height: 160px;
+	padding: 20px;
+	float: left;
+	font-size: 20px;
+	line-height: 5px;
+}
+/* Store(Content) Layout End */
+

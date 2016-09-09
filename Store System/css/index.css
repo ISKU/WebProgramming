@@ -1,0 +1,114 @@
+/* Header Layout Start */
+header {
+	background-image: url("../img/header.png");
+	background-repeat: repeat-x;
+	height: 175px;
+	padding-top: 35px;
+	text-align: center;
+}
+
+/* Header Title & Link */
+#headerLink:link, #headerLink:visited {
+	color: white;
+	font-size: 62px;
+	font-weight: bold;
+	font-family: "times new roman", "arial";
+	text-decoration: none;
+}
+/* Header Layout End */
+
+/* LOGIN, JOIN Layout Start */
+#content {
+	padding: 20px 0px 20px 0px;
+	background-color: white;
+	width: 80%;
+	float: left;
+}
+
+#login {
+	padding: 60px 0px 60px 0px;
+	background-color: white;
+	width: 100%;
+	text-align: center;
+}
+
+#loginForm {
+	display: inline-block;
+	color: #77C7C5;
+}
+
+#join {
+	padding: 60px 0px 60px 0px;
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	display: none;
+}
+
+#joinForm {
+	display: inline-block;
+	color: #77C7C5;
+}
+/* LOGIN, JOIN Layout End */
+
+/* Footer Layout Start */
+footer {
+	clear: both;
+	background-image: url("../img/footer.png");
+	background-repeat: repeat-x;
+	height: 85px;
+	padding: 30px;
+	text-align: center;
+}
+
+/* Footer CNU Symbol Start */
+#footerLogo {
+	float: left;
+	margin-top: 25px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+
+#footerLogo > img {
+	float: left;
+	width: 70px;
+	height: 70px;
+}
+
+#footerLogo > span:nth-child(2) {
+	position: relative;
+	top: 6px;
+	left: 10px;
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+}
+
+#footerLogo > span:nth-child(4) {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	font-size: 15px;
+	font-family: arial;
+	color: white;
+}
+/* Footer CNU Symbol End */
+
+/* Footer Copylight */
+#footerCopylight {
+	float: right;
+	margin-top: 65px;
+	margin-right: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "times new roman", "arial";
+	color: white;
+}
+/* Footer Layout End */
+
+/* Button & input */
+button, input{
+	background-color: #D8F0EF;
+	color: #027B6E;
+	font-weight: bold;
+}
