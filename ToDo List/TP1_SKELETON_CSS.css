@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+html{
+	height: 100%;
+}
+
+body{
+	background-color: #ffffff;
+	height: 100%;
+	width: 900px;
+	border: 1px solid;
+	margin: auto;
+	padding: 20px 30px 20px 30px;
+}
+
+article{
+	background-color: #ffffff;
+	height: 100%;
+	border-style: none;
+}
+
+/* ToolTip Start */
+#tooltip {
+	display: none;
+	z-index: 1;
+	position: absolute;
+	right: 25px;
+	top: 100px;
+	width: 160px;
+	height: 150px;
+	padding: 35px 10px 5px 10px;
+	background-image: url("img/tooltip.png");
+	background-repeat: no-repeat;
+	text-align: left;
+	line-height: 15px;
+}
+/* ToolTip End */
+
+/* Header Start */
+header{
+	background-color: #ffc000;
+	width: 800px;
+	line-height: 20px;
+	border: 1px solid;
+	border-radius: 10px;
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+	position: relative;
+}
+
+header > h2 {
+	font-family: "times new roman", "arial";
+	font-size: 36px;
+	color: grey;
+	margin-bottom: 3px;
+}
+
+header > button {
+	float: left;
+	margin-left: 20px;
+	width: 120px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 15px;
+	color: grey;
+}
+
+header > input {
+	float: right;
+	margin-right: 20px;
+	width: 180px;
+	height: 25px;
+}
+
+header > i {
+	color: grey;
+	font-size: 12px;
+}
+/* Header End */
+
+/* Main Start */
+#main {
+	background-color: #ffffff;
+	height: 90%;
+	width: 800px;
+	margin: auto;
+	padding: 10px;
+}
+
+.middle{
+	float: left;
+	height: 98%;
+	width: 23%;
+	margin: 7px;
+}
+
+.middleTop{
+	line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin-bottom: 25px;
+	color: grey;
+}
+
+.displayArea_A{
+	/* background-color: #cfe0e0; */
+	height: 95%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.displayArea_B{
+	/* background-color: #e9b7b7; */
+	height: 95%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.displayArea_C{
+	/* background-color: #cce0e0; */
+	height: 95%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.displayArea_D{
+	/* background-color: #e2ddc0; */
+	height: 95%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.mainLine{
+	float: left;
+	height: 100%;
+	border-right: 1px solid;
+}
+/* Main End */

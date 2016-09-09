@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>TODO in HTML5 Skeleton</title>
+<!-- CSS, JS External 정의 -->
+<link rel="stylesheet" type="text/css" href="TP1_SKELETON_CSS.css">
+<link rel="stylesheet" type="text/css" href="AddToDo_CSS.css">
+</head>
+
+<body>
+	<!-- View AddToDo -->
+	<div id="viewAddToDo">
+		<div id="writingTransparentBorder"></div>
+		<!-- Add ToDo Button View -->
+		<div id="writingFormContainer">
+			<img src="img/delete.png" onclick="clickDelete()" alt="delete"><br/>
+			<!-- AddToDo Form -->
+			<div id="form">
+				<select class="formType" name="category" onchange="selectCategory(this)">
+					<option value="학교">학교</option>
+					<option value="자기개발">자기개발</option>
+					<option value="기념일">기념일</option>
+					<option value="개인">개인</option>
+				</select><br/>
+				<input class="formType" type="text" name="title" placeholder="Title"><br/>
+				<textarea class="formType" name="content" rows="10" cols="20" placeholder="Content"></textarea><br/>
+				<button id="buttonAdd" onclick="clickAdd()">ADD</button>
+			</div>
+		</div>
+	</div>
+	<!-- <iframe id="viewAddToDo" src="AddToDo.html"></iframe> -->
+
+	<article>
+		<header>
+			<!-- Header (Add ToDo 버튼, keyword 검색) -->
+			<h2>TODO LIST</h2>
+			<i>Created By. 201201356 김민호</i><br/>
+			<button onclick="clickAddToDo()">Add ToDo</button>
+			<input id="search" type="search" name="search" onchange="searchOnChange(this)"><br/>
+			<div id="tooltip">
+				<p><b>No search results</b></p>
+				<span>Suggestions:</span><br/>
+			</div><br/>
+		</header>
+		
+		<div id="main">
+			<!-- Middle Bar A~D, Display Area A~D -->
+			<div id="middleBar_A" class="middle">
+				<section class="middleTop"><h3>학교</h3></section>
+				<div class="displayArea_A"></div>
+			</div>
+			<!--경계선-->
+			<div class="mainLine"></div>
+			
+			<div id="middleBar_B" class="middle">
+				<section class="middleTop"><h3>자기개발</h3></section>
+				<div class="displayArea_B"></div>
+			</div>
+			<div class="mainLine"></div>
+			
+			<div id="middleBar_C" class="middle">
+				<section class="middleTop"><h3>기념일</h3></section>
+				<div class="displayArea_C"></div>
+			</div>
+			<div class="mainLine"></div>
+			
+			<div id="middleBar_D" class="middle">
+				<section class="middleTop"><h3>개인</h3></section>
+				<div class="displayArea_D"></div>
+			</div>
+		</div>
+	</article>
+	
+	<!-- External JavaScript -->
+	<script src="MAIN_JS.js"></script>
+</body>
+
+</html>
