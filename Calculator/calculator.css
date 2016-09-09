@@ -1,0 +1,67 @@
+/* 계산기 전체 영역 */
+#calculator {
+	margin: 50px auto;
+	width: 800px;
+	height: 495px;
+	border: 3px outset darkgrey;
+	background-color: lightgrey;
+}
+
+/* 현재 입력 창 영역 */
+#inputScreen {
+	margin: 20px;
+	padding: 20px;
+	width: 368px;
+	height: 80px;
+	border: 2px outset darkgrey;
+	float: left;
+	text-align: right;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+/* 전체 입력 창 영역 */
+#inputAllScreen {
+	margin: 0px 0px 10px 0px;
+	width: 368px;
+	height: 40px;
+	border: 2px inset darkgrey;
+	float: left;
+}
+
+/* 히스토리 영역 */
+#history {
+	margin: 20px;
+	padding: 20px;
+	width: 250px;
+	height: 415px;
+	border: 2px inset darkgrey;
+	background-color: white;
+	float: right;
+	overflow: scroll;
+}
+
+/* 입력 버튼 영역 */
+#button {
+	margin: 0px 20px 20px 20px;
+	padding: 10px;
+	width: 388px;
+	height: 292px;
+	border: 2px inset darkgrey;
+	float: left;
+}
+
+/* 모든 버튼 양식 */
+#button > button {
+	margin: 5px;
+	width: 63px;
+	height: 63px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* "=" 버튼 양식 */
+#button > button:last-child {
+	width: 142px;
+	height: 63px;
+}

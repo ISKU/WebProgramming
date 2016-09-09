@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<!-- meta -->
+		<meta charset="utf-8" />
+		<meta name="author" content="김민호" />
+		<meta name="description" content="Calculator" />
+		<meta name="data" content="2016/05/01" />
+		
+		<!-- title -->
+		<title>Calculator</title>
+		
+		<!-- external style sheet -->
+		<link rel="stylesheet" type="text/css" href="./calculator.css" />
+	</head>
+
+	<body>
+		<!-- 계산기 전체 영역 -->
+		<div id="calculator">
+			<!-- 사용자 현재 입력 영역 -->
+			<div id="inputScreen">
+				<!-- 사용자 모든 입력 영역 -->
+				<div id="inputAllScreen">
+					<span id ="inputAll"></span>
+				</div>
+					<span id="input"></span>
+			</div>
+			
+			<!-- 히스토리 영역 -->
+			<div id="history">
+				<p><b>History</b></p>
+				<ul id="historyList"></ul>
+			</div>
+			
+			<!-- 버튼 영역 -->
+			<div id="button">
+				<button onclick="buttonNumber(7)">7</button>
+				<button onclick="buttonNumber(8)">8</button>
+				<button onclick="buttonNumber(9)">9</button>
+				<button onclick="buttonBack()">&#8592</button>
+				<button onclick="buttonOperator('multiply')">x</button>
+				<button onclick="buttonNumber(4)">4</button>
+				<button onclick="buttonNumber(5)">5</button>
+				<button onclick="buttonNumber(6)">6</button>
+				<button onclick="buttonClear()">C</button>
+				<button onclick="buttonOperator('minus')">-</button>
+				<button onclick="buttonNumber(1)">1</button>
+				<button onclick="buttonNumber(2)">2</button>
+				<button onclick="buttonNumber(3)">3</button>
+				<button onclick="buttonOperator('divide')">/</button>
+				<button onclick="buttonOperator('plus')">+</button>
+				<button onclick="buttonSign()">&plusmn</button>
+				<button onclick="buttonNumber(0)">0</button>
+				<button onclick="buttonNumber('.')">.</button>
+				<button onclick="buttonResult()">=</button>
+			</div>
+		<h5>Created By. 201201356 김민호</h5>
+		</div>
+		
+		<!-- external javascripts -->
+		<script src="./calculator.js"></script>
+	</body>
+</html>
