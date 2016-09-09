@@ -1,0 +1,212 @@
+/* header layout */
+header {
+	background-image:url("./image/header.png");
+	background-repeat:repeat-x;
+	height:175px;
+	padding-top:35px;
+	text-align:center;
+}
+
+/* menu layout */
+nav {
+	/*background-color:#D8F0EF;*/
+	background-image:url("./image/menu.png");
+	background-size:100% 1820px;
+	background-repeat:no-repeat;
+	float:left;
+	width:220px;
+	height:1820px;
+	padding:5px;
+	text-align:left;
+}
+
+/* content layout */
+section {
+	background-color:white;
+	float:left;
+	width:70%;
+	margin-left:100px;
+	margin-bottom:60px;
+}
+
+/* content-favorite(aside) layout */
+aside {
+	background-color:white;
+	float:left;
+	width:70%;
+	margin-left:100px;
+	margin-bottom:50px;
+}
+
+/* footer layout */
+footer {
+	clear:both;
+	background-image:url("./image/footer.png");
+	background-repeat:repeat-x;
+	height:85px;
+	padding:30px;
+	text-align:center;
+}
+
+/* 헤더 타이틀&링크 */
+#header_link:link, #header_link:visited {
+	color:white;
+	font-size:62px;
+	font-weight:bold;
+	font-family:"times new roman", "arial";
+	text-decoration:none;
+}
+
+/* 메뉴 리스트 */
+nav > ul {
+	list-style-type:square;
+	margin-top:65px;
+	font-size:18px;
+	font-family:"courier new", "arial";
+	color:#008480;
+	line-height:70px;
+}
+
+/* 메뉴 링크 */
+a.menu_link:link, a.menu_link:visited {
+	color:#77C7C5;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a.menu_link:hover, a.menu_link:active {
+	color:white;
+}
+
+/* 프로필 제목 */
+#content_title {
+	margin:65px auto 40px auto;
+	text-align:center;
+	font-size:24px;
+	font-family:arial;
+	color:#77C7C5;
+	text-decoration:underline;
+	border
+}
+
+/* 프로필 이미지 */
+#content_image {
+	float:left;
+	margin:75px 10px 10px 10px;
+	border:5px inset #D8F0EF;
+	padding:5px;
+}
+
+/* 프로필 내용 */
+#content_introduce {
+	float:left;
+	margin:10px 10px 10px 50px;
+	padding:20px;
+	width:470px;
+	border:5px outset #D8F0EF;
+	text-align:center;
+}
+
+/* 프로필 소개 텍스트 */
+#content_text {
+	color:grey;
+}
+
+#content_text::first-line {
+	color:black;
+	font-weight:bold;
+	font-size:18px;
+}
+
+#content_text > span {
+	font-style:italic;
+	text-decoration:underline;
+}
+
+/* 프로필 정보 테이블 */
+table {
+	border:1px solid white;
+	width:100%;
+	margin-top:30px;
+}
+
+th, td{
+	text-align:center;
+    padding:8px;
+}
+
+th {
+    background-color:#77C7C5;
+	font-size:18px;
+	font-weight:bold;
+	font-family:"arial", "맑은 고딕", "굴림";
+	color:white;
+}
+
+tr > td:nth-child(1) {
+	font-weight:bold;
+	color:#027B6E;
+}
+
+tr:hover {
+	background-color:#f5f5f5;
+	color:#77C7C5;
+}
+
+/* 프로필 iframe */
+aside iframe {
+	float:left;
+	margin:10px 50px 40px 10px;
+	border:3px dashed lightgrey;
+}
+
+span.iframe_title {
+	margin-left:140px;
+	margin-right:180px;
+	display:inline;
+	font-size:20px;
+	font-family:"arial", "맑은 고딕", "굴림";
+	font-style:italic;
+	color:grey;
+}
+
+/* footer 충남대학교 로고*/
+#footer_logo {
+	float:left;
+	margin-top:30px;
+	margin-left:20px;
+	text-decoration:none;
+}
+
+#footer_logo > img {
+	float:left;
+}
+
+#footer_logo > span:nth-child(2) {
+	position:relative;
+	top:4px;
+	left:15px;
+	display:inline-block;
+	font-size:24px;
+	font-weight:bold;
+	color:white;
+}
+
+#footer_logo > span:nth-child(4) {
+	position:relative;
+	left:15px;
+	font-size:12px;
+	font-family:arial;
+	color:white;
+}
+
+/* footer copylight */
+#footer_copylight {
+	float:right;
+	margin-top:60px;
+	margin-right:20px;
+	font-size:16px;
+	font-weight:bold;
+	font-family:"times new roman", "arial";
+	color:white;
+}
